@@ -1,3 +1,4 @@
+https://github.com/slfl/mooege
 https://github.com/mooege/mooege
 https://github.com/raistlinthewiz/mooege
 https://github.com/Egris/mooege

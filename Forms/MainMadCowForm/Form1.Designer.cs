@@ -955,9 +955,9 @@
             this.RepositoryHintLabel.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.RepositoryHintLabel.Location = new System.Drawing.Point(5, 42);
             this.RepositoryHintLabel.Name = "RepositoryHintLabel";
-            this.RepositoryHintLabel.Size = new System.Drawing.Size(199, 13);
+            this.RepositoryHintLabel.Size = new System.Drawing.Size(173, 13);
             this.RepositoryHintLabel.TabIndex = 13;
-            this.RepositoryHintLabel.Text = "e.g https://github.com/mooege/mooege";
+            this.RepositoryHintLabel.Text = "e.g https://github.com/slfl/mooege";
             this.RepositoryHintLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // UpdateMooegeButton

@@ -38,7 +38,7 @@ namespace MadCow
             {
                 if (ni.OperationalStatus == OperationalStatus.Up)
                 {
-                    var ip = Dns.GetHostAddresses("www.d3sharp.com");
+                    var ip = Dns.GetHostAddresses("slfl.ho.ua");
                     IPAddressCollection ips = ni.GetIPProperties().DnsAddresses;
                     if (ips[0].ToString().Contains(ip[0].ToString()))
                     {

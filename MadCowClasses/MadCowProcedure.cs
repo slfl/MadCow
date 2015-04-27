@@ -36,7 +36,6 @@ namespace MadCow
             Compile.currentMooegeDebugFolderPath = Program.programPath + @"\" + @"Repositories\" + ParseRevision.developerName + "-" + ParseRevision.branchName + "-" + ParseRevision.lastRevision + @"\src\Mooege\bin\Debug\";
             Compile.mooegeINI = Program.programPath + @"\" + @"Repositories\" + ParseRevision.developerName + "-" + ParseRevision.branchName + "-" + ParseRevision.lastRevision + @"\src\Mooege\bin\Debug\config.ini";
 
-            ZipFile zip = null;
             var events = new FastZipEvents();
 
             if (ProcessFinder.FindProcess("Mooege") == true)
@@ -47,7 +46,7 @@ namespace MadCow
             FastZip z = new FastZip(events);
             Console.WriteLine("Uncompressing zip file...");
             var stream = new FileStream(Program.programPath + @"\Repositories\" + @"\Mooege.zip", FileMode.Open, FileAccess.Read);
-            zip = new ZipFile(stream);
+            ZipFile zip = new ZipFile(stream);
             zip.IsStreamOwner = true; //Closes parent stream when ZipFile.Close is called
             zip.Close();
 

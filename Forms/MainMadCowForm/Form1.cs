@@ -100,7 +100,7 @@ namespace MadCow
             RetrieveMpqList.getfileList(); //Load MPQ list from Blizz server. Todo: This might slow down a bit MadCow loading, maybe we could place it somewhere else?.
             Helper.KillUpdater(); //This will kill MadCow updater if its running.
             ApplySettings(); //This loads Mooege settings over Mooege tab.
-            DNShoudini.checkDNS();
+//            DNShoudini.checkDNS(); //CheckDNS
             splash.Hide();
         }
         #endregion
