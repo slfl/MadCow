@@ -1,0 +1,12 @@
+C:\MadCow\bin\Release\MadCowUpdater\MadCowUpdater.exe
+C:\MadCow\bin\Release\MadCowUpdater\MadCowUpdater.pdb
+C:\MadCow\bin\Release\MadCowUpdater\af\MadCowUpdater.resources.dll
+C:\MadCow\MadCowUpdater\obj\x86\Release\ResolveAssemblyReference.cache
+C:\MadCow\MadCowUpdater\obj\x86\Release\MadCowUpdater.Form1.resources
+C:\MadCow\MadCowUpdater\obj\x86\Release\MadCowUpdater.Properties.Resources.resources
+C:\MadCow\MadCowUpdater\obj\x86\Release\MadCowUpdater.Form1.af.resources
+C:\MadCow\MadCowUpdater\obj\x86\Release\GenerateResource.read.1.tlog
+C:\MadCow\MadCowUpdater\obj\x86\Release\GenerateResource.write.1.tlog
+C:\MadCow\MadCowUpdater\obj\x86\Release\af\MadCowUpdater.resources.dll
+C:\MadCow\MadCowUpdater\obj\x86\Release\MadCowUpdater.exe
+C:\MadCow\MadCowUpdater\obj\x86\Release\MadCowUpdater.pdb
