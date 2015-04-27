@@ -730,8 +730,8 @@ namespace MadCow
         {
             //Opens path to find Diablo3
             OpenFileDialog FindD3Exe = new OpenFileDialog();
-            FindD3Exe.Title = "MadCow By Wesko";
-            FindD3Exe.InitialDirectory = @"C:\Program Files (x86)\Diablo III Beta\";
+            FindD3Exe.Title = "MadCow By Mansi";
+            FindD3Exe.InitialDirectory = @"C:\Program Files\Blizzard Entertainment\Diablo III\";
             FindD3Exe.Filter = "Diablo III|Diablo III.exe";
             DialogResult response = new DialogResult();
             response = FindD3Exe.ShowDialog();
@@ -2096,7 +2096,7 @@ namespace MadCow
                     IConfigSource source = new IniConfigSource(Program.madcowINI);
                     String Src = source.Configs["ShortCut"].Get("Shortcut");
 
-                    if (Src.Contains("0"))
+                    if (Src.Contains("1"))
                     {
                         source.Configs["ShortCut"].Set("Shortcut", 0);
                         source.Save();
