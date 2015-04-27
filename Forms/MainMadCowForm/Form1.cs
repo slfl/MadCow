@@ -2096,7 +2096,7 @@ namespace MadCow
                     IConfigSource source = new IniConfigSource(Program.madcowINI);
                     String Src = source.Configs["ShortCut"].Get("Shortcut");
 
-                    if (Src.Contains("0"))
+                    if (Src.Contains("1"))
                     {
                         source.Configs["ShortCut"].Set("Shortcut", 0);
                         source.Save();
