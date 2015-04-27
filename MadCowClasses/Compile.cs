@@ -79,7 +79,7 @@ namespace MadCow
                 {
                     IConfigSource source = new IniConfigSource(Program.madcowINI);
                     String Src = source.Configs["Balloons"].Get("ShowBalloons");
-                    if (Src.Contains("1")) { Form1.GlobalAccess.MadCowTrayIcon.ShowBalloonTip(1000, "MadCow", "Compiling Mooege......", ToolTipIcon.Info); }
+                    if (Src.Contains("1")) { Form1.GlobalAccess.MadCowTrayIcon.ShowBalloonTip(1000, "MadCow", "Compiling Mooege...", ToolTipIcon.Info); }
                 }
                 var mooegeProject = new Project(mooegePath);
                 return mooegeProject.Build(new Microsoft.Build.Logging.FileLogger());
