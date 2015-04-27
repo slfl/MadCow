@@ -34,7 +34,7 @@ namespace MadCowUpdater
         //We download both AssemblyInfo.cs from Wesko and Wetwlly for further comparison. Hardcoded? Kinda :P.
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-            String[] commiters = { "Wesko", "wetwlly" };
+            String[] commiters = {"slfl"};
             foreach (string commiter in commiters)
             {
                 try
@@ -68,8 +68,8 @@ namespace MadCowUpdater
             CompareLastVersion();
         }
 
-        public Int32 LatestVersionFound = 0;
-        public String LastCommiter = "";
+        public int LatestVersionFound = 0;
+        public String LastCommiter = "slfl";
         //We take the max version out of the List and assign the correct developer for URI use.
         public void CompareLastVersion()
         {
@@ -77,7 +77,7 @@ namespace MadCowUpdater
 
             if (LastVersion[0] > LastVersion[1])
             {
-                LastCommiter = "Wesko";
+                LastCommiter = "slfl";
             }
             else
             {
